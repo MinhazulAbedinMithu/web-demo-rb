@@ -9,7 +9,7 @@ export const News = (props) => {
 			<Row>
 				<Col md="6">
 					<Card.Header>
-						<img src={urlToImage} className="w-100" />
+						<img src={urlToImage} alt="news img" className="w-100" />
 					</Card.Header>
 				</Col>
 				<Col md="6">
