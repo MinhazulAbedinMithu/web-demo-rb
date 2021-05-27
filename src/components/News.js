@@ -16,7 +16,9 @@ export const News = (props) => {
 					<Card.Body>
 						<Card.Title>{title}</Card.Title>
 						<Card.Text>{description}</Card.Text>
-						<Button variant="primary">Go somewhere</Button>
+						<Button variant="primary" href={url}>
+							Go somewhere
+						</Button>
 					</Card.Body>
 				</Col>
 			</Row>
